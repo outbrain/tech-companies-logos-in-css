@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./attachments/guild.png" height=200 />
+  <img src="./assets/guild.png" height=200 />
 </p>
 
 # Tech Companies Logos in CSS
@@ -8,7 +8,7 @@ A repository with tech companies logos made with pure CSS. Why? Beacuse **CSS is
 # How to Contribute?
 
 1. Fork this repo.
-2. Navigate to the "**logos**" folder, and create a new folder with your company name (for example: "Google").
+2. Navigate to the "**logos**" folder, and create a new folder with your company name. The folder's name should be lowercased and without spaces (use dashed instead. For example: "outbrain", or "apps-flyer").
 3. Create both `index.html` and `style.css` files, and add a `logo.png` image file with the original logo. You'll work only with these files (if you use sass / scss, use only one file and commit it as well). No need to commit anything else.
 4. Edit the `README.md`, and add your company to the **participating companies** list.
 5. Once your code is ready, commited, and pushed, create a pull request.

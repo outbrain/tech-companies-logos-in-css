@@ -1,0 +1,30 @@
+#geektime {
+  border: 18px solid black;
+  width: 162px;
+  height: 162px;
+  border-radius: 100%;
+}
+
+#geektime::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 150px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  transform: rotate(47deg);
+  top: -23px;
+}
+
+#geektime::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 90px;
+  background: #70db00;
+  position: absolute;
+  right: 9px;
+  transform: rotate(52deg);
+  top: -7px;
+}

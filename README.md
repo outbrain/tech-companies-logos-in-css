@@ -41,6 +41,6 @@ Please follow the guidlines below:
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"
-If you have any questions, feel free to reach out at [email][1].
+If you have any questions, feel free to reach out at [FrontEndGuild@outbrain.com][1].
 
 **Good luck! 🤘🏻**

@@ -43,4 +43,4 @@ Please follow the guidlines below:
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"
 If you have any questions, feel free to reach out at [FrontEndGuild@outbrain.com][1].
 
-**Good luck! 🤘🏻**
+**Good Luck!** 🔥

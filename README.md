@@ -13,7 +13,7 @@ A repository with tech companies logos made with pure CSS. Why? Beacuse **CSS is
 4. Edit the `README.md`, and add your company to the **participating companies** list.
 5. Once your code is ready, commited, and pushed, create a pull request.
 
-# Guidlines
+# Guidelines
 
 Please follow the guidlines below:
 

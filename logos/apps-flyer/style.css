@@ -1,0 +1,59 @@
+#appsflyer {
+  position: relative;
+  margin: 150px auto;
+  width: 300px;
+}
+
+#appsflyer .diamond {
+  width: 93px;
+  height: 82px;
+  transform: skew(28deg);
+  border-radius: 10px;
+}
+
+#appsflyer .diamond.small {
+  width: 53px;
+  height: 42px;
+}
+
+#appsflyer .container {
+  position: absolute;
+}
+
+#appsflyer .top-left.container {
+  top: -50px;
+  left: 24px;
+}
+
+#appsflyer .top-left.container .diamond {
+  background: #74b82b;
+}
+
+#appsflyer .top-right.container .diamond {
+  background: #3e90d6;
+}
+
+#appsflyer .top-right.container {
+  transform: rotate(63deg);
+  top: -90px;
+  left: 101px;
+}
+
+#appsflyer .bottom-left.container .diamond {
+  background: #3e90d6;
+}
+
+#appsflyer .bottom-left.container {
+  transform: rotate(63deg);
+  top: 55px;
+  left: 107px;
+}
+
+#appsflyer .bottom-right.container .diamond {
+  background: #74b82b;
+}
+
+#appsflyer .bottom-right.container {
+  top: 32px;
+  left: 152px;
+}

@@ -1,0 +1,135 @@
+#ironsource {
+  background: #281361;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+}
+
+#ironsource #ironsource_i_dot {
+  position: absolute;
+  width: 15px;
+  height: 11px;
+  background: white;
+  transform: translate(23.3px, 24px);
+}
+
+#ironsource #ironsource_i_top {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  background: white;
+  border-bottom-right-radius: 7px;
+  transform: translate(19.3px, 37.5px);
+}
+
+#ironsource #ironsource_i_top::after {
+  display: inline-block;
+  content: '';
+  width: 5px;
+  height: 18px;
+  background: #281361;
+  border-bottom-right-radius: 3px;
+  transform: translate(-1px, -4px);
+}
+
+#ironsource #ironsource_i_bottom {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  background: white;
+  border-top-right-radius: 7px;
+  transform: translate(19.3px, 55.5px);
+}
+
+#ironsource #ironsource_i_bottom::after {
+  display: inline-block;
+  content: '';
+  width: 5px;
+  height: 18px;
+  background: #281361;
+  border-top-right-radius: 5px;
+  transform: translate(-1px, 4px);
+}
+
+#ironsource #ironsource_s_top {
+  position: absolute;
+  width: 38px;
+  height: 18.5px;
+  background: white;
+  transform: translate(40.5px, 22.5px);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16.5px;
+}
+
+#ironsource #ironsource_s_middle_1 {
+  position: absolute;
+  width: 19px;
+  height: 10.5px;
+  background: white;
+  transform: translate(40.5px, 40.5px);
+  border-bottom-left-radius: 11px;
+}
+
+#ironsource #ironsource_s_middle_2 {
+  position: absolute;
+  height: 22px;
+  width: 13.25px;
+  background: white;
+  transform: translate(52px, 37.5px) rotate(115deg);
+}
+
+#ironsource #ironsource_s_middle_3 {
+  position: absolute;
+  width: 19px;
+  height: 10.5px;
+  background: white;
+  transform: translate(59.5px, 46.5px);
+  border-top-right-radius: 11px;
+}
+
+#ironsource #ironsource_s_bottom {
+  position: absolute;
+  width: 38px;
+  height: 18.5px;
+  background: white;
+  transform: translate(40.5px, 57px);
+  border-bottom-right-radius: 16.5px;
+  border-bottom-left-radius: 16px;
+}
+
+#ironsource #ironsource_s_hole_1 {
+  position: absolute;
+  width: 3.75px;
+  height: 7.25px;
+  background: #281361;
+  border-radius: 3px 0px 0px 4px;
+  transform: translate(56.5px, 34.5px);
+}
+
+#ironsource #ironsource_s_hole_2 {
+  position: absolute;
+  width: 3.75px;
+  height: 7.25px;
+  background: #281361;
+  border-top-right-radius: 4px;
+  transform: translate(60.25px, 34.5px);
+}
+
+#ironsource #ironsource_s_hole_3 {
+  position: absolute;
+  width: 3.75px;
+  height: 7.25px;
+  background: #281361;
+  border-radius: 0px 4px 3px 0px;
+  transform: translate(59px, 56px);
+}
+
+#ironsource #ironsource_s_hole_4 {
+  position: absolute;
+  width: 3.75px;
+  height: 7.25px;
+  background: #281361;
+  border-bottom-left-radius: 4px;
+  transform: translate(55.5px, 56px);
+}

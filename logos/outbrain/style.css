@@ -1,0 +1,91 @@
+#outbrain {
+  --color-main: #EF8421;
+  --size-width: 277px;
+  --size-height: 262px;
+  margin: auto auto;
+  width: var(--size-width);
+  height: var(--size-height);
+  background-color: var(--color-main);
+  border-radius: 100%;
+  position: relative;
+}
+
+#outbrain .face {
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  top: 66px;
+  left: 49px;
+}
+
+#outbrain .glasses {
+  background-color: var(--color-main);
+  width: 15px;
+  height: 12px;
+  position: absolute;
+  top: 148px;
+  left: 130px;
+}
+
+#outbrain .glasses::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 12px;
+  background-color: var(--color-main);
+  position: absolute;
+  top: -3px;
+  left: -88px;
+}
+
+#outbrain .glasses::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 12px;
+  background-color: var(--color-main);
+  position: absolute;
+  top: -3px;
+  left: 70px;
+}
+
+#outbrain .glasses-circle {
+  position: absolute;
+  box-sizing: border-box;
+  border: 12px solid var(--color-main);
+  border-radius: 100%;
+  background-color: #fff;
+  width: 63px;
+  height: 63px;
+  top: -24px;
+}
+
+#outbrain .glasses-left {
+  left: -59px;
+}
+
+#outbrain .glasses-right {
+  left: 12px;
+}
+
+#outbrain .hair {
+  position: absolute;
+  background: var(--color-main);
+  box-shadow: 18px 0 0 0 var(--color-main);
+  width: 100px;
+  height: 70px;
+  top: 61px;
+  left: 48px;
+  border-radius: 40%;
+  transform-origin: top left;
+  transform: skew(-18deg, -18deg);
+}
+
+#outbrain .hair.right {
+  left: 136px;
+  top: 28px;
+  transform: skew(18deg, 19deg);
+  box-shadow: -18px 0 0 0 var(--color-main);
+}

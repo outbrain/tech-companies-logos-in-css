@@ -1,5 +1,5 @@
 <p align="center">
-  ![Outbrain's Front End Guild Logo](assets/guild.png?raw=true)
+  <img src="assets/guild.png" height=200 />
 </p>
 
 # Tech Companies Logos in CSS

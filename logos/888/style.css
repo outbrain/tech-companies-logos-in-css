@@ -1,0 +1,28 @@
+#eight {
+  position: relative;
+  height: 100px;
+  width: 130px;
+  margin: 50px auto;
+  background-color: black;
+}
+
+#eight .e_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  grid-template-rows: 30px 30px;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+#eight .e_circle {
+  height: 20px;
+  width: 20px;
+  opacity: 0.8;
+  align-self: center;
+  justify-self: center;
+  border: 10px solid white;
+  border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+#matrix {
+  transform: rotate(-30deg);
+  width: 300px;
+  margin: 50px auto;
+}
+
+#matrix ul {
+  display: grid;
+  width: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 50%;
+  grid-gap: 5px;
+  list-style: none;
+  transform: perspective(200px) rotateY(25deg);
+}
+
+#matrix li {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 70%, #fff, #0099dd 35%, #2a449b 74%)
+}

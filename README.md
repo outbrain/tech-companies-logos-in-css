@@ -2,6 +2,8 @@
   <img src="assets/guild.png" height=200 alt="Outbrain's Front End Guild Logo" class="inline" />
 </p>
 
+<img src="assets/guild.png" height=200 alt="Outbrain's Front End Guild Logo" class="inline" />
+
 # Tech Companies Logos in CSS
 A repository with tech companies logos made with pure CSS. Why? Beacuse **CSS is awesome!**.
 

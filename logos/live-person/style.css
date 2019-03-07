@@ -1,0 +1,68 @@
+#liveperson {
+  position: relative;
+  margin: 150px auto;
+}
+
+#liveperson::before, #liveperson::after {
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 100%;
+}
+
+#liveperson::after {
+  z-index: 10;
+  background-color: #ff6500;
+  width: 105px;
+  height: 105px;
+}
+
+#liveperson::before {
+  z-index: 11;
+  background-color: #fff;
+  width: 63px;
+  height: 63px;
+}
+
+#liveperson .bar {
+  background-color: #ff6500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+  width: 17px;
+  height: 132px;
+  z-index: 1;
+}
+
+#liveperson .bar:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#liveperson .bar:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(22deg);
+}
+
+#liveperson .bar:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(68deg);
+}
+
+#liveperson .bar:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+#liveperson .bar:nth-child(6) {
+  transform: translate(-50%, -50%) rotate(113deg);
+}
+
+#liveperson .bar:nth-child(7) {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+#liveperson .bar:nth-child(8) {
+  transform: translate(-50%, -50%) rotate(157deg);
+}

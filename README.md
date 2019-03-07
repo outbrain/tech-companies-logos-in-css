@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://outbrain.github.io/tech-companies-logos-in-css/assets/guild.png" height=200 />
+  <img src="assets/guild.png" height=200 />
 </p>
 
 # Tech Companies Logos in CSS

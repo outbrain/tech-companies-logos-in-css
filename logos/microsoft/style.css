@@ -1,0 +1,29 @@
+#microsoft {
+  --size: 250px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+
+  margin: 0 auto;
+
+  width: var(--size);
+  height: var(--size);
+}
+
+.red {
+  background-color: #f1511b;
+}
+
+.green {
+  background-color: #7fcc28;
+}
+
+.blue {
+  background-color: #01adef;
+}
+
+.yellow {
+  background-color: #fcbb0c;
+}

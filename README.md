@@ -28,6 +28,7 @@ Please follow the guidlines below:
 - [Live Person](logos/live-person)
 - [SimilarWeb](logos/slimilarweb)
 - [Soluto](logos/soluto)
+- [Microsoft](logos/microsoft)
 - [Monday.com](logos/monday-com)
 - [IronSource](logos/ironsource)
 - [888](logos/888)

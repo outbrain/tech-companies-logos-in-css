@@ -1,0 +1,68 @@
+#cyberark {
+  margin: 50px auto;
+  width: 200px;
+}
+
+#cyberark #cyberark_in_1 {
+  position: absolute;
+  width: 22px;
+  height: 19px;
+  background: #9a9b9f;
+  transform: translate(46.5px, 32px) rotate(90deg) skew(-30deg);
+}
+
+#cyberark #cyberark_in_2 {
+  position: absolute;
+  width: 22px;
+  height: 19px;
+  background: #5c5d5f;
+  transform: translate(27.5px, 32px) rotate(90deg) skew(30deg);
+}
+
+#cyberark #cyberark_out_1 {
+  position: absolute;
+  border-top: 20px solid #325bae;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  height: 0;
+  width: 22px;
+  transform: translate(39.5px, 12px) rotate(30deg);
+}
+
+#cyberark #cyberark_out_2 {
+  position: absolute;
+  border-top: 20px solid #487cbb;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  height: 0;
+  width: 22px;
+  transform: translate(10.5px, 12px) rotate(-30deg);
+}
+
+#cyberark #cyberark_out_3 {
+  position: absolute;
+  border-top: 20px solid #325bae;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  height: 0;
+  width: 22px;
+  transform: translate(-4px, 37px) rotate(-90deg);
+}
+
+#cyberark #cyberark_out_4 {
+  position: absolute;
+  border-top: 20px solid #487cbb;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  height: 0;
+  width: 22px;
+  transform: translate(10.5px, 62px) rotate(-150deg);
+}
+
+#cyberark #cyberark_out_5 {
+  position: absolute;
+  width: 23px;
+  height: 40px;
+  background: #325bae;
+  transform: translate(56.5px, 49px) rotate(90deg) skew(30deg);
+}

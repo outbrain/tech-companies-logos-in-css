@@ -1,0 +1,253 @@
+.logo {
+  position: relative;
+  margin: 50px auto;
+  text-align: center;
+  width: 100px;
+}
+
+#wix {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#wix .top-body {
+  display: flex;
+}
+
+#wix .body {
+  display: flex;
+  justify-content: center;
+  height: 43px;
+  width: 40px;
+  background: transparent;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+#wix .hand {
+  border: 1px solid black;
+  height: 45px;
+  width: 26px;
+  transform: skew(25deg, 0deg);
+  border-bottom-left-radius: 57%;
+  border-top-right-radius: 19%;
+  background: transparent;
+}
+
+#wix .right-hand {
+  transform: scaleX(-1);
+}
+
+#wix .legs {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -3px;
+}
+
+#wix .leg {
+  background: transparent;
+  height: 44px;
+  width: 29px;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 16%;
+  transform: skew(-32deg, 0deg);
+  border: 1px solid black;
+  border-top: none;
+}
+
+#wix .left-leg {
+  margin-right: 12px;
+}
+
+#wix .right-leg {
+  transform: scaleX(-1) skew(-32deg, 0deg) ;
+  margin-left: -3px;
+}
+
+#wix .top-leg {
+  background: red;
+  transform: skew(32deg, 0deg);
+}
+
+#wix .cover-border {
+  width: 45px;
+  height: 32px;
+  align-self: center;
+  position: absolute;
+  top: 26px;
+  background: white;
+}
+
+#wix .top-legs {
+  transform: scaleY(-1);
+}
+
+#wix .wix-bg.hand {
+  background: #ffcd01;
+}
+
+#wix .bg {
+  background: #ffcd01;
+}
+
+#wix .wix-bg-hide {
+  background: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+#wix .rotate.hand {
+  background: green;
+}
+
+#wix .spiral {
+  display: flex;
+  position: relative;
+  top: -82px;
+  left: 10px;
+  transform: rotate(-10deg);
+}
+
+#wix .spiral-left {
+  display: flex;
+  position: relative;
+  background: #ffcd01;
+  width: 45px;
+  height: 64px;
+  flex-direction: column-reverse;
+}
+
+#wix .spiral-right {
+  display: flex;
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 64px;
+  flex-direction: column;
+}
+
+#wix .spiral-part {
+  border-bottom-right-radius: 30px;
+  transform: scale(-1, -1);
+  width: 100%;
+  height: 32px;
+  align-self: center;
+  top: 26px;
+}
+
+#wix .spiral-part.bottom {
+  background: #ffcd01;
+  border-bottom-right-radius: 84%;
+
+  transform: none;
+}
+
+#wix .spiral-part.top {
+  background: red;
+  border-bottom-right-radius: 110%;
+}
+
+#wix .cover {
+  position: absolute;
+  left: 57px;
+  top: 30px;
+  transform: rotate(-13deg) skew(-37deg, 0deg);
+  background: white;
+  border-color: white;
+  width: 34px;
+  height: 17px;
+  border-top-left-radius: 79%;
+  border-bottom-right-radius: 79%;
+}
+
+#wix .middle-cover {
+  z-index: 10;
+  position: absolute;
+  left: 57px;
+  top: 36px;
+  transform: rotate(-2deg) skew(-37deg, 0deg);
+  background: white;
+  width: 18px;
+  height: 8px;
+  border-top-left-radius: 79%;
+  border-bottom-right-radius: 79%;
+}
+
+#wix .cover-2 {
+  background: white;
+  top: 47px;
+  left: 18px;
+  width: 40px;
+  transform: rotate(-16deg) skew(-37deg, -2deg);
+}
+#wix .leg-cover {
+  background: #ffcd01;
+  width: 16px;
+  height: 21px;
+}
+#wix .leg-cover-right {
+  background: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 26px;
+  height: 12px;
+}
+
+#wix .face {
+  display: flex;
+  width: 23px;
+  justify-content: space-between;
+}
+
+#wix .face .eye-container {
+  width: 6px;
+  height: 8px;
+  background: #0c0a06;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wix .face {
+  top: 14px;
+  position: absolute;
+}
+
+#wix .eye-container .eye-brow {
+  width: 91%;
+  background: #0c0a06;
+  height: 1px;
+  position: absolute;
+  top: -2px;
+  transform: rotate(6deg);
+}
+
+#wix .eye-brow-2 {
+  transform: rotate(-6deg) !important;
+}
+
+#wix .eye-container .eye-dot {
+  background: white;
+  width: 1px;
+  height: 1px;
+}
+
+#wix .face .mouth {
+  border-bottom: 1px solid black;
+  background: none;
+  width: 5px;
+  height: 4px;
+  position: absolute;
+  bottom: -4px;
+  left: 9px;
+  border-bottom-right-radius: 57%;
+  border-bottom-left-radius: 50%;
+}

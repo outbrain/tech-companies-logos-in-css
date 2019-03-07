@@ -1,0 +1,107 @@
+#cybereason {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  margin: 50px auto;
+}
+
+#cybereason .triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 65px solid #009ac1;
+}
+
+#cybereason .circle-cover {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#cybereason .circle-cover.top {
+  background: white;
+  top: -41px;
+  width: 126px;
+  left: -12px;
+}
+
+#cybereason .bottom {
+  position: absolute;
+}
+
+#cybereason .bottom .circle-cover {
+  background: white;
+  top: -44px;
+  width: 133px;
+  transform: rotate(-54deg);
+  left: -30px;
+}
+
+#cybereason .bottom .circle-cover.right {
+  background: white;
+  left: -105px;
+  transform: scaleX(-1) rotate(-54deg);
+}
+
+#cybereason .eyes {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  justify-content: space-between;
+  top: 14px;
+  width: 84px;
+}
+
+#cybereason .eye {
+  border-radius: 50%;
+  border: 5px solid #009ac1;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#cybereason .eye.right {
+  border-left: none;
+}
+
+#cybereason .eye.left {
+  border-right: none;
+}
+
+#cybereason .eye .eye-inside {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 10px solid black;
+  border-top: none;
+  border-right: none;
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+#cybereason .eye-inside.right {
+  transform: scaleX(-1);
+  left: 1px !important;
+}
+
+#cybereason .eye .negative-eye {
+  position: absolute;
+  bottom: -32px;
+  left: 9px;
+  border: none;
+  border-top: 5px solid #009ac1;
+  transform: rotate(30deg);
+  width: 27px;
+}
+
+#cybereason .eye .negative-eye.right {
+  transform: scaleX(-1) rotate(30deg);
+  left: -8px;
+}

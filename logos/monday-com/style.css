@@ -1,0 +1,34 @@
+.logo {
+  margin: 50px auto;
+  position: relative;
+  width: 200px;
+}
+
+#monday {
+  position: absolute;
+  width: 19px;
+  height: 50px;
+  border-radius: 9.5px;
+  transform: translate(48.25px, -28px) rotate(32deg);
+  background: #f5cd00;
+}
+
+#monday::before {
+  content: '';
+  position: absolute;
+  width: 19px;
+  height: 50px;
+  border-radius: 9.5px;
+  transform: translate(-23.75px, 15px);
+  background: #f54656;
+}
+
+#monday::after {
+  content: '';
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border-radius: 9.5px;
+  transform: translate(25.25px, 17px);
+  background: #24d52c;
+}

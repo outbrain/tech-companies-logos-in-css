@@ -25,19 +25,19 @@ Please follow the guidlines below:
 # Participating Companies
 
 - [Geektime](logos/geektime)
-- Live Person
-- SimilarWeb
-- Soluto
-- Monday.com
-- IronSource
-- 888
-- Outbrain
-- Matrix
-- AppsFlyer
-- CyberArk
-- CyberReason
-- Wix
-- Waze
+- [Live Person](logos/live-person)
+- [SimilarWeb](logos/slimilarweb)
+- [Soluto](logos/soluto)
+- [Monday.com](logos/monday-com)
+- [IronSource](logos/ironsource)
+- [888](logos/888)
+- [Outbrain](logos/outbrain)
+- [Matrix](logos/matrix)
+- [AppsFlyer](logos/apps-flyer)
+- [CyberArk](logos/cyberark)
+- [CyberReason](logos/cybereason)
+- [Wix](logos/wix)
+- [Waze](logos/waze)
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

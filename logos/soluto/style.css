@@ -1,0 +1,87 @@
+#soluto {
+  width: 302px;
+  height: 200px;
+  position: relative;
+  margin: 50px auto;
+}
+
+#soluto .main {
+  position: absolute;
+  background: #fff;
+  border-radius: 100%;
+  width: 119px;
+  height: 118px;
+  top: 51px;
+  left: 94px;
+  box-shadow: 0 0 0 30px #05aef6;
+}
+
+#soluto .main::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  transform-origin: top left;
+  transform: rotate(45deg);
+  top: -96px;
+  left: 60px;
+  width: 120px;
+  height: 120px;
+}
+
+#soluto .circle {
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  width: 29px;
+  height: 30px;
+  background: #05aef6;
+}
+
+#soluto .circle.l {
+  top: 51px;
+  left: 79px;
+}
+
+#soluto .circle.r {
+  top: 51px;
+  left: 199px;
+}
+
+#soluto .bar {
+  position: absolute;
+  top: 36px;
+  left: 119px;
+  width: 27px;
+  height: 65px;
+  background: #05aef6;
+}
+
+#soluto .bar::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  top: -10px;
+  left: 0;
+  width: 27px;
+  height: 29px;
+  background: #05aef6;
+}
+
+#soluto .bar::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  top: 47px;
+  left: 0;
+  width: 27px;
+  height: 29px;
+  background: #05aef6;
+}
+
+#soluto .bar.r {
+  left: 161px;
+}

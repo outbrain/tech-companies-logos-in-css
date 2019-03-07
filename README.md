@@ -24,7 +24,7 @@ Please follow the guidlines below:
 
 # Participating Companies
 
-- [Geektime][https://github.com/outbrain/tech-companies-logos-in-css/tree/master/logos/geektime]
+- [Geektime](logos/geektime)
 - Live Person
 - SimilarWeb
 - Soluto

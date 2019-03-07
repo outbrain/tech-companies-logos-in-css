@@ -4,6 +4,7 @@
   height: 162px;
   border-radius: 100%;
   position: relative;
+  margin: 50px auto;
 }
 
 #geektime::before {

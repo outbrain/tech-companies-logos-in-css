@@ -24,21 +24,21 @@ Please follow the guidlines below:
 
 # Participating Companies
 
-- [Geektime](logos/geektime)
-- [Live Person](logos/live-person)
-- [SimilarWeb](logos/slimilarweb)
-- [Soluto](logos/soluto)
-- [Microsoft](logos/microsoft)
-- [Monday.com](logos/monday-com)
-- [IronSource](logos/ironsource)
-- [888](logos/888)
-- [Outbrain](logos/outbrain)
-- [Matrix](logos/matrix)
-- [AppsFlyer](logos/apps-flyer)
-- [CyberArk](logos/cyberark)
-- [CyberReason](logos/cybereason)
-- [Wix](logos/wix)
-- [Waze](logos/waze)
+- [Geektime](https://outbrain.github.io/tech-companies-logos-in-css/logos/geektime)
+- [Live Person](https://outbrain.github.io/tech-companies-logos-in-css/logos/live-person)
+- [SimilarWeb](https://outbrain.github.io/tech-companies-logos-in-css/logos/similarweb)
+- [Soluto](https://outbrain.github.io/tech-companies-logos-in-css/logos/soluto)
+- [Microsoft](https://outbrain.github.io/tech-companies-logos-in-css/logos/microsoft)
+- [Monday.com](https://outbrain.github.io/tech-companies-logos-in-css/logos/monday-com)
+- [IronSource](https://outbrain.github.io/tech-companies-logos-in-css/logos/ironsource)
+- [888](https://outbrain.github.io/tech-companies-logos-in-css/logos/888)
+- [Outbrain](https://outbrain.github.io/tech-companies-logos-in-css/logos/outbrain)
+- [Matrix](https://outbrain.github.io/tech-companies-logos-in-css/logos/matrix)
+- [AppsFlyer](https://outbrain.github.io/tech-companies-logos-in-css/logos/apps-flyer)
+- [CyberArk](https://outbrain.github.io/tech-companies-logos-in-css/logos/cyberark)
+- [CyberReason](https://outbrain.github.io/tech-companies-logos-in-css/logos/cybereason)
+- [Wix](https://outbrain.github.io/tech-companies-logos-in-css/logos/wix)
+- [Waze](https://outbrain.github.io/tech-companies-logos-in-css/logos/waze)
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

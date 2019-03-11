@@ -24,6 +24,7 @@ Please follow the guidlines below:
 
 # Participating Companies
 
+- [Amdocs](https://outbrain.github.io/tech-companies-logos-in-css/logos/amdocs)
 - [Geektime](https://outbrain.github.io/tech-companies-logos-in-css/logos/geektime)
 - [Live Person](https://outbrain.github.io/tech-companies-logos-in-css/logos/live-person)
 - [SimilarWeb](https://outbrain.github.io/tech-companies-logos-in-css/logos/similarweb)

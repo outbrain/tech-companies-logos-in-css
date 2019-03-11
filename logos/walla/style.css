@@ -1,0 +1,30 @@
+.walla {
+	background-color: #00aeef;
+	width: 200px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	margin: 100px auto;
+}
+
+.walla:before, 
+.walla:after {
+	content: '';
+	width: 55px;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	border-radius: 7px;
+}
+
+.walla:after {
+	height: 110px;
+	transform: translateX(-27%) skew(-17deg);
+	top: 20px;
+}
+
+.walla:before {
+	height: 40px;
+	transform: translateX(-73%) skew(-17deg);
+	bottom: 20px;
+}

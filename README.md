@@ -39,6 +39,7 @@ Please follow the guidlines below:
 - [CyberReason](https://outbrain.github.io/tech-companies-logos-in-css/logos/cybereason)
 - [Wix](https://outbrain.github.io/tech-companies-logos-in-css/logos/wix)
 - [Waze](https://outbrain.github.io/tech-companies-logos-in-css/logos/waze)
+- [Stoa](https://outbrain.github.io/tech-companies-logos-in-css/logos/stoa)
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

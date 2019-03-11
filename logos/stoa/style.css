@@ -1,0 +1,60 @@
+#stoa {
+  width: 160px;
+  height: 132px;
+  position: relative;
+  background-color: #fff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  display: flex;  
+  align-items: flex-end;  
+}
+.bar{
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; 
+  margin: 0px 5px;
+  background-color: #009966;
+}
+.bar:nth-child(1){
+  height: 30px;
+  width: 6px;
+}
+.bar:nth-child(2){
+  height: 36px;
+  width: 7px;
+  margin-right: 6px;
+}
+.bar:nth-child(3){
+  height: 48px;
+  width: 8px;
+  margin-right: 8px;
+}
+.bar:nth-child(4){
+  height: 58px;
+  width: 10px;
+  margin-right: 8px;
+}
+.bar:nth-child(5){
+  height: 68px;
+  width: 74px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  position: relative;
+}
+.bar:nth-child(5):after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 82px 60px 0;
+  border-color: transparent #fff transparent transparent;
+  right: 0;
+  top: -12px;
+  transform: rotateX(-46deg);
+}

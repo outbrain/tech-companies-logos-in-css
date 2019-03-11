@@ -41,6 +41,7 @@ Please follow the guidlines below:
 - [Wix](https://outbrain.github.io/tech-companies-logos-in-css/logos/wix)
 - [Waze](https://outbrain.github.io/tech-companies-logos-in-css/logos/waze)
 - [Walla](https://outbrain.github.io/tech-companies-logos-in-css/logos/walla)
+- [Amdocs](https://outbrain.github.io/tech-companies-logos-in-css/logos/amdocs)
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  box-sizing: content-box;
+}
+
+html,
+body,
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper .logo {
+  height: 20vw;
+  width: 24vw;
+  background-color: white;
+  display: grid;
+  grid-template-areas: '. start start start . .' '. . . space . sign' 'end end end end . .';
+  grid-template-columns: 0.5fr 0.5fr 3fr 1fr 0.25fr 1.25fr;
+  grid-template-rows: 1fr 1fr 3fr;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+.wrapper .logo .sign {
+  background-color: #ec078a;
+  content: '';
+  display: inline-block;
+  grid-area: sign;
+  position: relative;
+  top: 100%;
+}
+.wrapper .logo .sign:before {
+  border-top: 4vw solid white;
+  border-right: 0 solid transparent;
+  border-left: 1vw solid transparent;
+  content: '';
+  display: block;
+  height: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.wrapper .logo .item {
+  background: linear-gradient(to right, #fdb415 0%, #ec078a 100%);
+  position: relative;
+}
+.wrapper .logo .item.space {
+  background: linear-gradient(to right, #f05381 0%, #ec078a 100%);
+  border-top: 0;
+  border-bottom: 0;
+  grid-area: space;
+}
+.wrapper .logo .item:first-child, .wrapper .logo .item:last-child {
+  height: 100%;
+  width: 100%;
+}
+.wrapper .logo .item:first-child {
+  border-radius: 0 10vw 0 0;
+  grid-area: start;
+}
+.wrapper .logo .item:first-child:before {
+  border-bottom: 6vw solid white;
+  border-left: 0 solid transparent;
+  border-right: 3vw solid transparent;
+  content: '';
+  display: block;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.wrapper .logo .item:last-child {
+  border-radius: 10vw 0 10vw 10vw;
+  grid-area: end;
+}
+.wrapper .logo .item:last-child:before {
+  background-color: white;
+  border-radius: 10vw 0 10vw 10vw;
+  content: '';
+  display: block;
+  height: 30%;
+  width: 60%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.wrapper .logo.invert {
+  background-color: black;
+}
+.wrapper .logo.invert .sign:before {
+  border-top-color: black;
+}
+.wrapper .logo.invert .item:first-child:before {
+  border-bottom-color: black;
+}
+.wrapper .logo.invert .item:last-child:before {
+  background-color: black;
+}

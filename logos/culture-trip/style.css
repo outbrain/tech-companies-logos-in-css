@@ -1,0 +1,46 @@
+:root {
+	--stroke-width: 20px;
+	--size: 300px;
+}
+
+#culture-trip{
+	z-index: 1;
+	margin: 50px auto;
+	position: relative;
+	width: var(--size);
+	height: var(--size);
+	border: var(--stroke-width) solid black;
+	border-right: none;
+	border-radius: 100% 0 0 100%;
+}
+
+#culture-trip:after,
+#culture-trip:before{
+	content:'';
+	right: 0;
+	position: absolute;
+
+	width: calc( var(--size) * .6 );
+	height: calc( var(--size) * .6 );
+
+	border: var(--stroke-width) solid black;
+	border-right: none;
+	border-radius: 100% 0 0 100%;
+}
+
+#culture-trip:after{ top: calc( var(--stroke-width) * -1 ); }
+#culture-trip:before{ bottom: calc( var(--stroke-width) * -1 ); }
+
+.line{
+	right: 0;
+	position: absolute;
+
+	width: var(--stroke-width);
+	height: calc( var(--size) * .4 );
+
+	border-right: var(--stroke-width) red #fff;
+	background:#000;
+	z-index: 99;
+}
+.line--top{ top:calc( var(--stroke-width) * -1 ); }
+.line--bottom{ bottom:calc( var(--stroke-width) * -1 ); }

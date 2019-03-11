@@ -37,6 +37,7 @@ Please follow the guidlines below:
 - [AppsFlyer](https://outbrain.github.io/tech-companies-logos-in-css/logos/apps-flyer)
 - [CyberArk](https://outbrain.github.io/tech-companies-logos-in-css/logos/cyberark)
 - [CyberReason](https://outbrain.github.io/tech-companies-logos-in-css/logos/cybereason)
+- [Culture Trip](https://outbrain.github.io/tech-companies-logos-in-css/logos/culture-trip)
 - [Wix](https://outbrain.github.io/tech-companies-logos-in-css/logos/wix)
 - [Waze](https://outbrain.github.io/tech-companies-logos-in-css/logos/waze)
 - [Walla](https://outbrain.github.io/tech-companies-logos-in-css/logos/walla)

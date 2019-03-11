@@ -43,7 +43,7 @@ body,
   width: 0;
 }
 .wrapper .logo .item {
-  background: linear-gradient(to right, #fdb415 0%, #ec078a 100%);
+  background: linear-gradient(to right, #fdb415 0%, #f05381 80%, #ec078a 100%);
   position: relative;
 }
 .wrapper .logo .item.space {

@@ -15,8 +15,8 @@ body,
   width: 24vw;
   background-color: white;
   display: grid;
-  grid-template-areas: '. start start start . .' '. . . space . sign' 'end end end end . .';
-  grid-template-columns: 0.5fr 0.5fr 3fr 1fr 0.25fr 1.25fr;
+  grid-template-areas: '. start start start . .' '. . corner space . sign' 'end end end end . .';
+  grid-template-columns: 0.5fr 0.5fr 3fr 1fr 0.4fr 1.1fr;
   grid-template-rows: 1fr 1fr 3fr;
   margin: auto;
   padding: 20px;
@@ -51,6 +51,25 @@ body,
   border-top: 0;
   border-bottom: 0;
   grid-area: space;
+}
+.wrapper .logo .item.space--corner {
+  background: transparent;
+  grid-area: corner;
+  position: relative;
+}
+.wrapper .logo .item.space--corner:before, .wrapper .logo .item.space--corner:after {
+  height: 100%;
+  width: 100%;
+  content: '';
+  display: inline-block;
+  position: absolute;
+}
+.wrapper .logo .item.space--corner:before {
+  background: linear-gradient(to right, #fdb415 0%, #f05381 100%);
+}
+.wrapper .logo .item.space--corner:after {
+  background: white;
+  border-top-right-radius: 1.5vw;
 }
 .wrapper .logo .item:first-child, .wrapper .logo .item:last-child {
   height: 100%;
@@ -99,5 +118,8 @@ body,
   border-bottom-color: black;
 }
 .wrapper .logo.invert .item:last-child:before {
+  background-color: black;
+}
+.wrapper .logo.invert .item.space--corner:after {
   background-color: black;
 }

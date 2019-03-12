@@ -43,6 +43,7 @@ Please follow the guidlines below:
 - [Waze](https://outbrain.github.io/tech-companies-logos-in-css/logos/waze)
 - [Stoa](https://outbrain.github.io/tech-companies-logos-in-css/logos/stoa)
 - [Walla](https://outbrain.github.io/tech-companies-logos-in-css/logos/walla)
+- [Verint](https://outbrain.github.io/tech-companies-logos-in-css/logos/verint)
 
 
 # Questions?

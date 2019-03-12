@@ -1,0 +1,66 @@
+#logo {
+  background-color: #076AB3;
+  width: 80px;
+  height: 60px;
+  margin: 30px auto;
+  border-radius: 8px;
+  transform: skewX(10deg);
+  display:flex;    
+  position: relative;
+}
+
+.top-border {
+  background-color: #076AB3;
+  width: 80px;
+  height: 60px;
+  position:absolute;
+  border-radius: 8px;    
+  right: -8px
+}
+
+.letter {
+  background-color:#fff;  
+  border:solid 4px #076AB3;  
+  height: 50px;
+  width: 25px;
+  transform: skewX(-25deg);
+  position:absolute;
+  bottom: -3px;
+}
+
+.letter.left {
+  border-radius: 8px 8px 8px 10px;    
+  border-left: 8px solid #076AB3;
+  border-right: 4px solid #076AB3;
+  left:10px;    
+}
+
+.letter.center {
+  border-right: 3px solid #076AB3;
+  border-radius: 0  8px 0 8px;    
+  left:45px;
+}  
+
+.letter.right {
+  border-left: 3px solid #076AB3;
+  border-radius: 6px 6px 6px 0px;
+  left:76px;
+}
+
+.sep {
+  background-color:#fff;
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+.sep.left {
+  left: 50px;
+  top: 9px;
+}
+
+.sep.right {
+  bottom: 1px;
+  right: 6px;
+}

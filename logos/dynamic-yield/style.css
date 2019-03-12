@@ -1,0 +1,127 @@
+#dynamic-yield {
+  width: 300px;
+  height: 300px;
+}
+
+#dynamic-yield .gradient {
+ 	background: linear-gradient(-45deg, #6334c0, #ff1266, #ff9e3e, #ffc200);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+#dynamic-yield .roll {
+  animation: roll 0.7s infinite;
+  transform: rotate(30deg);
+}
+
+#dynamic-yield .skew {
+  animation: skew 3s infinite;
+  transform: skew(5deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(5deg);
+  }
+  100% {
+    transform: skewX(-5deg);
+  }
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#dynamic-yield .gradient-anmtn:hover {background: black;}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#dynamic-yield .dy-logo-mark {
+  background-color: black; 
+  border-radius: 50%; 
+  width: 100%; 
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+#dynamic-yield .dy-logo-mark .slc {
+  background: white; 
+  position: relative; 
+}
+#dynamic-yield .dy-logo-mark .pt1 {
+  width: 5%; 
+  height: 100%; 
+  left: 47%;
+}
+
+#dynamic-yield .dy-logo-mark .pt2 {
+  width: 50%; 
+  height: 5%; 
+  left: 0%; 
+  top: -52%;
+}
+
+#dynamic-yield .dy-logo-mark .pt3 {
+  width: 50%;
+  height: 5%; 
+  right: -50%; 
+  top: -28%;
+}
+
+#dynamic-yield .dy-logo-mark .pt4 {
+  width: 50%; 
+  height: 5%; 
+  right: -50%; 
+  top: -83%;
+}
+
+#dynamic-yield .dy-logo-mark .pt5 {
+  width: 5%; 
+  height: 50%; 
+  left: 26%; 
+  top: -65%;
+}

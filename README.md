@@ -49,6 +49,7 @@ Please follow the guidlines below:
 - [Monolith](https://outbrain.github.io/tech-companies-logos-in-css/logos/monolith)
 - [Dynamic Yield](https://outbrain.github.io/tech-companies-logos-in-css/logos/dynamic-yield)
 - [CET](https://outbrain.github.io/tech-companies-logos-in-css/logos/cet)
+- [Sisense](https://outbrain.github.io/tech-companies-logos-in-css/logos/sisense)
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

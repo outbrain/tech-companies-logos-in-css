@@ -1,0 +1,85 @@
+#logo {
+  background-color: #076AB3;
+  width: 80px;
+  height: 60px;
+  margin: 30px auto;
+  border-radius: 8px 0 0 0;
+  transform: skewX(10deg);
+  display:flex;    
+  position: relative;
+}
+
+#logo div {
+  position:absolute;
+}
+
+.top-border {
+  background-color: #076AB3;
+  width: 80px;
+  height: 60px;  
+  border-radius: 8px;    
+  right: -8px
+}
+
+.letter {
+  background-color:#fff;  
+  border:solid 4px #076AB3;  
+  height: 50px;
+  width: 25px;
+  transform: skewX(-25deg);  
+  bottom: -4px;
+}
+
+.letter.left {
+  border-radius: 10px 10px 10px 10px;    
+  border-left: 8px solid #076AB3;
+  border-right: 4px solid #076AB3;
+  left:10px;    
+}
+
+.letter.center {
+  border-radius: 0  10px 0 10px;    
+  left:45px;
+}  
+
+.letter.right {
+  border-radius: 10px 10px 10px 0px;
+  left:76px;
+}
+
+.sep {
+  background-color:#fff;
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+.sep.left {
+  left: 50px;
+  top: 10px;
+}
+
+.sep.right {
+  bottom: 0;
+  right: 6px;
+}
+
+.letter-inner {
+  background-color:#076AB3;
+  width: 6px;
+  height: 30px;
+  border-radius: 8px;
+  transform: skewX(-25deg);
+  z-index:3;
+}
+
+.letter-inner.right {
+  right: 2px;
+  top: 25px;
+}
+
+.letter-inner.left {
+  left: 46px;
+  top: 14px;
+}

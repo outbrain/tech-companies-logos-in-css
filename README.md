@@ -44,8 +44,10 @@ Please follow the guidlines below:
 - [Stoa](https://outbrain.github.io/tech-companies-logos-in-css/logos/stoa)
 - [Walla](https://outbrain.github.io/tech-companies-logos-in-css/logos/walla)
 - [Verint](https://outbrain.github.io/tech-companies-logos-in-css/logos/verint)
+- [PayPal](https://outbrain.github.io/tech-companies-logos-in-css/logos/paypal)
+- [Monolith](https://outbrain.github.io/tech-companies-logos-in-css/logos/monolith)
+- [Dynamic Yield](https://outbrain.github.io/tech-companies-logos-in-css/logos/dynamic-yield)
 - [CET](https://outbrain.github.io/tech-companies-logos-in-css/logos/cet)
-
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

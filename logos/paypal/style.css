@@ -1,0 +1,38 @@
+#paypal {
+  --color-primary: rgba(0, 48, 135, 0.9);
+  --color-secondary: #009cde;
+  margin: 20px auto 0;
+}
+
+#paypal span {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 100px;
+  margin: 0 auto;
+  background: var(--color-primary);
+  border-radius: 5px 0px 5px 5px;
+  transform: skew(-10deg) scaleY(1.15);
+  filter: drop-shadow(30px 20px 0px var(--color-secondary));
+}
+#paypal span::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 65px;
+  left: 30px;
+  border-top: 2px solid var(--color-primary);
+  border-left: 2px solid var(--color-primary);
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+#paypal span::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  left: 29.5px;
+  background: inherit;
+  border-radius: 0px 40px 55px 0px;
+}

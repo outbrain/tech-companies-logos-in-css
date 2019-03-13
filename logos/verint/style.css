@@ -3,153 +3,152 @@
     display: flex;
     width: 90vw;
     height: 15.3vw;
-  }
-  .v {
-      width: 17%;
-      height: 100%;
-      position: relative;
-  }
-  
-  .v:before, 
-  .v:after {
-      content: '';
-      width: 23%;
-      background-color: #007bff;
-      position: absolute;
+}
+.v {
+    width: 17%;
     height: 100%;
-  }
+    position: relative;
+}
   
-  .v:after {
-      transform: skew(-20deg);
+.v:before, 
+.v:after {
+    content: '';
+    width: 23%;
+    background-color: #007bff;
+    position: absolute;
+    height: 100%;
+}
+  
+.v:after {
+    transform: skew(-20deg);
     right: calc(20%);
-  }
+}
   
-  .v:before {
-      transform: skew(20deg);
+.v:before {
+    transform: skew(20deg);
     left: calc(20%);
-  }
+}
   
-  .e {
+.e {
     width: 12%;
     height: 100%;
     background: #007bff;
     position: relative;
     margin-left: 4.2%;
-  }
+}
   
-  .e:before, 
-  .e:after {
-      content: '';
-      width: 73%;
-      background-color: white;
-      position: absolute;
+.e:before, 
+.e:after {
+    content: '';
+    width: 73%;
+    background-color: white;
+    position: absolute;
     height: 20%;
-    right: 0;
-  }
+    right: -1px;
+}
   
-  .e:before {
-      top: 20%;
-  }
-  .e:after {
-      top: 60%;
-  }
+.e:before {
+    top: 20%;
+}
+.e:after {
+    top: 60%;
+}
   
-  .r {
+.r {
     width: 3.8%;
     height: 100%;
     background: #007bff;
     position: relative;
     margin-left: 5.1%;
     margin-right: 9.7%;
-  }
+}
   
-  .r:before {
-      content: '';
-      width: 340%;
-      height: 55.5%;
-      background: #007bff;
-      position: absolute;
-      top: 0;
-      border-bottom-right-radius: 100px;
-      border-top-right-radius: 100px;
-  }
+.r:before {
+    content: '';
+    width: 340%;
+    height: 55.5%;
+    background: #007bff;
+    position: absolute;
+    top: 0;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
   
-  .r:after {
-      content: '';
-      width: 100%;
-      background: #007bff;
-      position: absolute;
-      height: 100%;
-      left: 125%;
-      transform: skew(29deg);
-  }
-  .r span {
-      background: white;
-      width: 150%;
-      height: 21%;
-      position: absolute;
-      z-index: 1;
-      left: 100%;
-      top: 17%;
-      border-bottom-right-radius: 50px;
-      border-top-right-radius: 50px;
-  }
+.r:after {
+    content: '';
+    width: 100%;
+    background: #007bff;
+    position: absolute;
+    height: 100%;
+    left: 125%;
+    transform: skew(29deg);
+}
+.r span {
+    background: white;
+    width: 150%;
+    height: 21%;
+    position: absolute;
+    z-index: 1;
+    left: 100%;
+    top: 17%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
   
-  .i {
+.i {
     width: 3.9%;
     height: 100%;
     background: #007bff;
     margin-left: 3.85%;
-  }
+}
   
-  .n {
+.n {
     width: 3.8%;
     height: 100%;
     background: #007bff;
     position: relative;
     margin-left: 5.9%;
     margin-right: 12%;
-  }
+}
   
-  .n:before {
-      content: '';
-      width: 100%;
-      background: #007bff;
-      position: absolute;
+.n:before {
+    content: '';
+    width: 100%;
+    background: #007bff;
+    position: absolute;
     height: 100%;
     left: 170%;
     transform: skew(35deg)
-  }
+}
   
-  .n:after {
-      content: '';
-      width: 100%;
-      background: #007bff;
-      position: absolute;
+.n:after {
+    content: '';
+    width: 100%;
+    background: #007bff;
+    position: absolute;
     height: 100%;
     left: 330%;
-  }
+}
   
-  .t {
+.t {
     width: 13.7%;
-      background: #007bff;
+    background: #007bff;
     position: relative;
     height: 100%;
     margin-left: 5%;
-  }
+}
   
-  .t:after, .t:before {
-      content: '';
-      width: 35%;
+.t:after, .t:before {
+    content: '';
+    width: 36%;
     height: 77%;
     background: white;
     position: absolute;
-    
-    bottom: 0;
-  }
-  .t:after {
-      left: 0;
-  }
-  .t:before {
-      right: 0;
-  }
+    bottom: -1px;
+}
+.t:after {
+    left: -2px;
+}
+.t:before {
+    right: -2px;
+}

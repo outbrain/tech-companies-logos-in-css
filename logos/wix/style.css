@@ -251,3 +251,362 @@
   border-bottom-right-radius: 57%;
   border-bottom-left-radius: 50%;
 }
+
+
+/* Text logo CSS */
+
+#logo-text {
+  width: 928px;
+  height: 231px;
+  position: relative;
+  background: #000;
+}
+#logo-text:hover {
+  background: transparent;
+}
+#logo-text:hover .l {
+  background: rgba(255, 0, 0, 0.5);
+}
+#logo-text:hover .l div {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.l {
+  height: 201px;
+  top: 13px;
+  position: absolute;
+}
+.l div {
+  position: absolute;
+  background: currentColor;
+  color: #fff;
+}
+
+#w {
+  left: 9px;
+  width: 268px;
+}
+#w .a {
+  width: 37px;
+  height: 100%;
+  border-top-right-radius: 40px 25px;
+  border-bottom-right-radius: 40px 13px;
+  transform-origin: 0 0;
+  transform: skew(14.7deg, 0);
+}
+#w .b {
+  left: 105px;
+  top: 10px;
+  width: 37px;
+  height: calc(100% - 10px);
+  border-top-left-radius: 27px 27px;
+  border-bottom-right-radius: 30px 27px;
+  transform-origin: 0 0;
+  transform: skew(-14.7deg, 0);
+}
+#w .c {
+  left: 126px;
+  top: 10px;
+  width: 37px;
+  height: calc(100% - 10px);
+  border-top-right-radius: 27px 27px;
+  border-bottom-left-radius: 30px 27px;
+  transform-origin: 0 0;
+  transform: skew(14.7deg, 0);
+}
+#w .d {
+  right: 0;
+  width: 37px;
+  height: 100%;
+  border-top-left-radius: 40px 25px;
+  border-bottom-left-radius: 40px 13px;
+  transform-origin: 100% 0;
+  transform: skew(-14.7deg, 0);
+}
+#w .e {
+  left: 113px;
+  top: 39px;
+  overflow: hidden;
+  width: 42px;
+  height: 25px;
+  background: transparent;
+}
+#w .e::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0 solid currentColor;
+  border-width: 15px;
+}
+
+#i {
+  left: 289px;
+  width: 37px;
+}
+#i .a {
+  width: 37px;
+  height: 37px;
+  border-top-left-radius: 32px 30px;
+  border-bottom-right-radius: 32px 32px;
+  transform-origin: 0 100%;
+  transform: skew(0, 2deg);
+}
+#i .b {
+  width: 37px;
+  bottom: 0;
+  height: calc(100% - 44px);
+  border-top-left-radius: 37px 20px;
+  border-bottom-right-radius: 30px 26px;
+}
+#i .c {
+  right: 0;
+  top: 40px;
+  overflow: hidden;
+  width: 72%;
+  height: 25px;
+  background: transparent;
+  transfomr-origin: 0 100%;
+  transform: skew(0, -32deg);
+}
+#i .c::after {
+  content: "";
+  position: absolute;
+  top: calc(-50% - 18px);
+  right: -23px;
+  width: 43px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0 solid currentColor;
+  border-width: 15px;
+}
+#i .d {
+  left: 0;
+  top: 34px;
+  overflow: hidden;
+  width: 42%;
+  height: 20px;
+  background: transparent;
+  transfomr-origin: 0 100%;
+  transform: skew(0, -22deg);
+}
+#i .d::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  width: 40px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0 solid currentColor;
+  border-width: 15px;
+}
+
+#x {
+  left: 340px;
+  width: 185px;
+}
+#x .a {
+  width: 41px;
+  height: 50%;
+  border-top-right-radius: 26px 22px;
+  transform-origin: 0 0;
+  transform: skew(34deg, 0);
+}
+#x .b {
+  width: 41px;
+  right: 0;
+  height: 50%;
+  border-top-left-radius: 26px 22px;
+  transform-origin: 0 0;
+  transform: skew(-34deg, 0);
+}
+#x .c {
+  bottom: 0;
+  left: 1px;
+  width: 41px;
+  height: 50%;
+  border-bottom-right-radius: 26px 22px;
+  transform-origin: 0 100%;
+  transform: skew(-34deg, 0);
+}
+#x .d {
+  bottom: 0;
+  width: 41px;
+  right: 1px;
+  height: 50%;
+  border-bottom-left-radius: 26px 22px;
+  transform-origin: 0 100%;
+  transform: skew(34deg, 0);
+}
+#x .e {
+  left: 70px;
+  top: 70px;
+  overflow: hidden;
+  width: 43px;
+  height: 18px;
+  background: transparent;
+}
+#x .e::after {
+  content: "";
+  position: absolute;
+  top: calc(-50% - 24px);
+  width: 15px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0 solid currentColor;
+  border-width: 15px;
+}
+#x .f {
+  left: 70px;
+  top: 112px;
+  overflow: hidden;
+  width: 43px;
+  height: 20px;
+  background: transparent;
+}
+#x .f::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  width: 15px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 0 solid currentColor;
+  border-width: 15px;
+}
+
+#dot {
+  width: 11px;
+  left: 538px;
+}
+#dot .a {
+  height: 21px;
+  width: 100%;
+  bottom: 0;
+}
+
+#c {
+  width: 91px;
+  padding-bottom: 2px;
+  left: 566px;
+}
+#c .a,
+#c .b,
+#c .c {
+  height: 107px;
+  width: 100%;
+  top: 96px;
+  background: transparent;
+  overflow: hidden;
+}
+#c .a::after,
+#c .b::after,
+#c .c::after {
+  content: "";
+  height: 107px;
+  width: 91px;
+  position: absolute;
+  border-radius: 48% 42% 46% 47% / 48% 35% 38% 49%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0 solid currentColor;
+  border-width: 7px 8px;
+}
+#c .a {
+  height: 35px;
+}
+#c .b {
+  height: 38px;
+  top: auto;
+  bottom: 0;
+}
+#c .b::after {
+  top: -69px;
+}
+#c .c {
+  width: 12px;
+}
+
+#o {
+  width: 95px;
+  padding-bottom: 2px;
+  left: 670px;
+}
+#o .a {
+  height: 107px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 47%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0 solid currentColor;
+  border-width: 7px 8px;
+}
+
+#m {
+  width: 137px;
+  right: 9px;
+  left: auto;
+}
+#m .a {
+  width: 8px;
+  height: 103px;
+  bottom: 0;
+}
+#m .b {
+  width: 8px;
+  left: 65px;
+  height: 75px;
+  bottom: 0;
+}
+#m .c {
+  width: 8px;
+  right: 0;
+  height: 75px;
+  bottom: 0;
+}
+#m .d {
+  width: 70px;
+  left: 3px;
+  height: 90px;
+  top: 95px;
+  background: transparent;
+  overflow: hidden;
+  height: 40px;
+}
+#m .d::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  border: 0 solid currentColor;
+  border-width: 8px 8px 8px 4px;
+  border-radius: 65% 51% 0 0 / 68% 42% 0 0;
+}
+#m .e {
+  width: 68px;
+  right: 0;
+  height: 90px;
+  top: 95px;
+  background: transparent;
+  overflow: hidden;
+  height: 40px;
+}
+#m .e::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  border: 0 solid currentColor;
+  border-width: 8px 8px 8px 4px;
+  border-radius: 57% 51% 0 0 / 53% 42% 0 0;
+}

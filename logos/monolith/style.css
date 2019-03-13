@@ -1,5 +1,6 @@
 *, *:after, *:before{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -7,17 +8,29 @@ body {
     background-color: #393939;
     width: 100%;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 5%;
 }
 
 .container{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .logo {
@@ -35,16 +48,29 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     opacity: 0;
-    transform: translateY(-15%);
-    animation-name: fade-down;
-    animation-fill-mode: forwards;
-    animation-duration: .5s;
-    animation-delay: .25s;
-    animation-timing-function: ease;
+    -webkit-transform: translateY(-15%);
+        -ms-transform: translateY(-15%);
+            transform: translateY(-15%);
+    -webkit-animation-name: fade-down;
+            animation-name: fade-down;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-animation-delay: .25s;
+            animation-delay: .25s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
 }
 
 .letter:not(.o){
@@ -53,8 +79,12 @@ body {
 
 .m {
     width: 15.4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 .m .dot {
     width: 23.6%;
@@ -77,14 +107,16 @@ body {
     width: 60.5%;
     height: 100%;
     margin-left: -23.6%;
-    clip-path: polygon(0% 0%, 39% 0%, 100% 76%, 82% 100%);
+    -webkit-clip-path: polygon(0% 0%, 39% 0%, 100% 76%, 82% 100%);
+            clip-path: polygon(0% 0%, 39% 0%, 100% 76%, 82% 100%);
 }
 .m .one {
     background-color: currentColor;
     width: 42%;
     height: 100%;
     margin-left: -2.5%;
-    clip-path: polygon(0% 38%, 44% 0%, 100% 0%, 100% 100%, 57% 100%, 57% 29%, 46% 38%);
+    -webkit-clip-path: polygon(0% 38%, 44% 0%, 100% 0%, 100% 100%, 57% 100%, 57% 29%, 46% 38%);
+            clip-path: polygon(0% 38%, 44% 0%, 100% 0%, 100% 100%, 57% 100%, 57% 29%, 46% 38%);
 }
 
 .o {
@@ -92,17 +124,21 @@ body {
     height: 100%;
     width: 14%;
     border-radius: 50%;
+    background: -webkit-radial-gradient(transparent 45%, currentColor 45%);
+    background: -o-radial-gradient(transparent 45%, currentColor 45%);
     background: radial-gradient(transparent 45%, currentColor 45%);
 }
 .n {
     width: 12%;
     background-color: currentColor;
-    clip-path: polygon(0% 100%, 0% 0%, 24% 0%, 75.6% 63%, 75% 0%, 100% 0%, 100% 100%, 77% 100%, 23% 34%, 23% 100%);
+    -webkit-clip-path: polygon(0% 100%, 0% 0%, 24% 0%, 75.6% 63%, 75% 0%, 100% 0%, 100% 100%, 77% 100%, 23% 34%, 23% 100%);
+            clip-path: polygon(0% 100%, 0% 0%, 24% 0%, 75.6% 63%, 75% 0%, 100% 0%, 100% 100%, 77% 100%, 23% 34%, 23% 100%);
 }
 .l {
     width: 8.6%;
     background-color: currentColor;
-    clip-path: polygon(0% 0%, 33% 0%, 33% 81%, 100% 81%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 33% 0%, 33% 81%, 100% 81%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 33% 0%, 33% 81%, 100% 81%, 100% 100%, 0% 100%);
 }
 .i {
     background-color: currentColor;
@@ -111,14 +147,20 @@ body {
 .t {
     background-color: currentColor;
     width: 10.68%;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 61% 18%, 61% 100%, 35% 100%, 35% 18%, 0% 18%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 61% 18%, 61% 100%, 35% 100%, 35% 18%, 0% 18%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 61% 18%, 61% 100%, 35% 100%, 35% 18%, 0% 18%);
 }
 .h {
     background-color: currentColor;
     width: 11.8%;
-    clip-path: polygon(0 0, 23% 0%, 23% 39%, 77% 39%, 77% 0%, 100% 0%, 100% 100%, 77% 100%, 77% 57%, 23% 57%, 23% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 23% 0%, 23% 39%, 77% 39%, 77% 0%, 100% 0%, 100% 100%, 77% 100%, 77% 57%, 23% 57%, 23% 100%, 0% 100%);
+            clip-path: polygon(0 0, 23% 0%, 23% 39%, 77% 39%, 77% 0%, 100% 0%, 100% 100%, 77% 100%, 77% 57%, 23% 57%, 23% 100%, 0% 100%);
+}
+
+@-webkit-keyframes fade-down {
+    to {opacity: 1; -webkit-transform: translateY(0); transform: translateY(0)}
 }
 
 @keyframes fade-down {
-    to {opacity: 1; transform: translateY(0)}
+    to {opacity: 1; -webkit-transform: translateY(0); transform: translateY(0)}
 }

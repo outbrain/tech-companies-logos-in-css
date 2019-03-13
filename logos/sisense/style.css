@@ -1,0 +1,107 @@
+.container {
+  background: #ffcb05;
+  width: 1000px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 215px;
+}
+
+.triangle-1, .triangle-3 {
+  border-style: solid;
+  border-width: 58px 0px 58px 160px;
+  border-color: transparent;
+  border-left-color: black;
+}
+
+.triangle-2 {
+  margin-top: -30px;
+  border-style: solid;
+  border-width: 58px 160px 58px 0px;
+  border-color: transparent;
+  border-right-color: black;
+}
+
+.triangle-3 {
+  margin-top: -30px;
+}
+
+.triangle-4 {
+  margin-top: -30px;
+  border-style: solid;
+  border-width: 25px 67px 25px 0px;
+  border-color: transparent;
+  border-right-color: black;
+}
+
+.name {
+  display: flex;
+  margin-top: 50px;
+}
+
+div[class$="container"], .letter-i {
+  margin-right: 12px;
+}
+
+.letter-i.rotate {
+  height: 90px;
+  width: 20px;
+  transform: skew(37deg);
+  position: relative;
+}
+
+.letter-s-container, .letter-e-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.letter-n-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter-i {
+  width: 18px;
+  height: 90px;
+  background: black;
+}
+
+.letter-i.no-margin {
+  margin: 0;
+}
+
+.full-line {
+  background: black;
+  height: 18px;
+}
+
+.full-line.transparent {
+  background: transparent;
+}
+
+.small-box {
+  background: black;
+  width: 18px;
+  height: 18px;
+}
+
+.small-box.right {
+   align-self: flex-end;
+}
+
+.top {
+   height: 15px;
+}
+
+.bottom {
+   height: 20px;
+}

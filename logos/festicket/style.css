@@ -1,0 +1,28 @@
+#festicket {
+  width: 270px;
+  height: 300px;
+}
+
+#festicket div {
+  background-color: black;
+}
+
+#top {
+  width: 100%;
+  height: 43%;
+  clip-path: polygon(0 0, 100% 22%, 96% 80%, 3% 100%);
+}
+
+#middle {
+  width: 76%;
+  height: 32%;
+  clip-path: polygon(8% 0, 98% 20%, 100% 100%, 0 100%);
+  transform: translate(10%, -22%);
+}
+
+#bottom {
+  width: 40%;
+  height: 36%;
+  clip-path: polygon(0% 32%, 100% 0, 83% 100%, 2% 91%);
+  transform: translate(42%, -31%);
+}

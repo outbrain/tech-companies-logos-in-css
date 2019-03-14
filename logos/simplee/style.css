@@ -1,0 +1,42 @@
+#simplee {
+    --size: 245px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+    margin: 0 auto;
+  
+    width: var(--size);
+    height: var(--size);
+  }
+
+  .circle {
+      border-radius: 50%;
+      opacity: 0.9;
+      flex-basis: 50%;
+  }
+  
+  .orange {
+    background-color: #ffa800;
+    z-index: 2;
+    transform: translate(-18px,18px);
+  }
+  
+  .green {
+    background-color: #90cd68;
+    transform: translate(18px,-18px);
+    z-index: 4;
+    
+  }
+  
+  .blue {
+    background-color: #54b5e1;
+    transform: translate(-23px,-23px);
+  }
+  
+  .yellow {
+    background-color: #fce161;
+    transform: translate(23px,23px);
+    z-index: 3;
+  }
+  

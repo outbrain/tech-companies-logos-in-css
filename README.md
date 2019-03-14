@@ -51,6 +51,8 @@ Please follow the guidlines below:
 - [CET](https://outbrain.github.io/tech-companies-logos-in-css/logos/cet)
 - [Sisense](https://outbrain.github.io/tech-companies-logos-in-css/logos/sisense)
 - [Festicket](https://outbrain.github.io/tech-companies-logos-in-css/logos/festicket)
+- [Infinidat](https://outbrain.github.io/tech-companies-logos-in-css/logos/infinidat)
+
 
 # Questions?
 [1]: mailto:FrontEndGuild@outbrain.com "FrontEndGuild@outbrain.com"

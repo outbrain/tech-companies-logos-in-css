@@ -1,0 +1,110 @@
+body {
+    background-color: #fff;
+    margin: 20vh 20px 0;
+}
+
+#infinidat, #infinidat *, #infinidat ::before, #infinidat ::after {
+    position: absolute;
+}
+
+#infinidat {
+    height: 142px;
+    overflow: hidden;
+    transform: scale(0.75);
+    transform-origin: 0 0;
+    width: 1416px;
+}
+
+.I, .N, .N::before, .N::after, .F, .F::before, .F::after, .D, .A, .A::after {
+    background-color: #303030;
+    color: #303030;
+}
+
+.N::before, .N::after, .F::before, .F::after, .D::after, .A::after {
+    content: '';
+    display: block;
+}
+
+.I {
+    box-shadow: 316px 0, 484px 0, 800px 0, 1330px 0;
+    height: 142px;
+    width: 23px;
+}
+
+.N {
+    box-shadow: 130px 0, 484px 0, 614px 0;
+    height: 142px;
+    left: 94px;
+    width: 21px;
+}
+
+.N::before, .N::after {
+    box-shadow: -60px -19px #fff, 60px 19px #fff;
+    height: 19px;
+    top: 3px;
+    transform: rotate(43deg);
+    transform-origin: 0 0;
+    width: 176px;
+}
+
+.N::before {
+    left: 18px;
+}
+
+.N::after {
+    left: 502px;
+}
+
+.F {
+    box-shadow: 942px 0, 970px 0;
+    height: 19px;
+    left: 326px;
+    width: 120px;
+}
+
+.F::before {
+    height: 19px;
+    top: 65px;
+    width: 74px;
+}
+
+.F::after {
+    height: 18px;
+    left: 790px;
+    top: 89px;
+    width: 102px;
+}
+
+.D {
+    border-radius: 0 64px 64px 0;
+    height: 142px;
+    left: 894px;
+    width: 155px;
+}
+
+.D::after {
+    background-color: #fff;
+    border-radius: 0 43px 43px 0;
+    height: 103px;
+    left: 23px;
+    top: 19px;
+    width: 109px;
+}
+
+.A {
+    height: 180px;
+    left: 1161px;
+    top: -14px;
+    transform: rotate(27deg);
+    transform-origin: 0 0;
+    width: 19px;
+}
+
+.A::after {
+    height: 180px;
+    left: -1px;
+    top: 9px;
+    transform: rotate(-54deg);
+    transform-origin: 0 0;
+    width: 19px;
+}

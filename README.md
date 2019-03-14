@@ -52,6 +52,7 @@ Please follow the guidlines below:
 - [Sisense](https://outbrain.github.io/tech-companies-logos-in-css/logos/sisense)
 - [Festicket](https://outbrain.github.io/tech-companies-logos-in-css/logos/festicket)
 - [Infinidat](https://outbrain.github.io/tech-companies-logos-in-css/logos/infinidat)
+- [Simplee](https://outbrain.github.io/tech-companies-logos-in-css/logos/simplee)
 
 
 # Questions?

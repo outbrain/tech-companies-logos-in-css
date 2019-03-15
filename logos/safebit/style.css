@@ -1,0 +1,72 @@
+:root {
+  --bluish: #3D70B2;
+  --white: #FFF;
+  --primcol: white;
+  --background: var(--bluish);
+
+  --border-radius: 1px;
+}
+
+html, body {
+  background: #FFF;
+  background: var(--background);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  display: grid;
+  grid-template-rows: [top] 1fr [bottom];
+}
+
+.logo .sec {
+  position: relative;
+  height: 166px;
+  grid-row-start: top;
+}
+.logo .sec.rev {
+  transform: rotate(180deg);
+  grid-row-start: auto;
+  grid-row-end: end;
+}
+.logo .sec .slant {
+  position: relative;
+  height: 64px;
+  
+  transform: skew(0, -18deg);
+  background: #3D70B2;
+  background:  var(--primcol);
+  border-radius: var(--border-radius);
+}
+.logo .slant::before,
+.logo .slant::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  display: block;
+
+  width: 64px;
+  height: 131px;
+  background: var(--primcol);
+  border-radius: var(--border-radius);
+  transform: skew(0, 18deg);
+}
+.logo .slant::before {
+  top: 22px;
+  left: 0;
+}
+.logo .slant::after {
+  height: 111px;
+  right: 0;
+  top: 26px;
+}

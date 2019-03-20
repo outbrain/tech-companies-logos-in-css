@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.browsiLayout {
+  width: 500px;
+  height: 200px;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+}
+
+.browsiLayout .logoBorder {
+  height: 60px;
+  width: 100px;
+  background: #7bfaaf;
+  margin-top: 15px;
+}
+
+.browsiLayout .long {
+  width: 160px;
+}
+
+.browsiLayout .logoText {
+  font-weight: 800;
+  font-size: 100px;
+  margin-left: 10px;
+  margin-bottom: -12px;
+}

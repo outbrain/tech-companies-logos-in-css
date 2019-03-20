@@ -54,6 +54,7 @@ Please follow the guidlines below:
 - [Infinidat](https://outbrain.github.io/tech-companies-logos-in-css/logos/infinidat)
 - [Simplee](https://outbrain.github.io/tech-companies-logos-in-css/logos/simplee)
 - [Safebit](https://outbrain.github.io/tech-companies-logos-in-css/logos/safebit)
+- [Browsi](https://outbrain.github.io/tech-companies-logos-in-css/logos/browsi)
 
 
 # Questions?

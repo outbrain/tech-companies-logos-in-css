@@ -55,6 +55,7 @@ Please follow the guidlines below:
 - [Simplee](https://outbrain.github.io/tech-companies-logos-in-css/logos/simplee)
 - [Safebit](https://outbrain.github.io/tech-companies-logos-in-css/logos/safebit)
 - [Browsi](https://outbrain.github.io/tech-companies-logos-in-css/logos/browsi)
+- [Redash](https://outbrain.github.io/tech-companies-logos-in-css/logos/redash)
 
 
 # Questions?

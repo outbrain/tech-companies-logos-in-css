@@ -1,0 +1,106 @@
+:root {
+  --primary: #ff7964;
+  --shadow: #ef6c58;
+  --bar: white;
+}
+
+body {
+  background: #FFF;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#circle {
+  width: 158px;
+  height: 158px;
+  background-color: var(--shadow);
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#circle > div {
+  width: 158px;
+  height: 143px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 47px 26px 30px 24px;
+  box-sizing: border-box;
+}
+
+#bars {
+  position: absolute;
+  left: 0;
+  top: 47px;
+  right: 0;
+  height: 66px;
+  display: flex;
+  padding: 0 46px 0 44px;
+}
+
+.bar {
+  background: var(--bar);
+  box-shadow: 0px 4px 0 0 var(--shadow);
+  display: inline-block;
+  border-radius: 2px;
+  align-self: flex-end;
+  flex: 1;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+
+.bar:nth-child(1) {
+  height: 32%;
+}
+
+.bar:nth-child(2) {
+  height: 71%;
+}
+
+.bar:nth-child(3) {
+  height: 50%;
+}
+
+.bar:nth-child(4) {
+  height: 100%;
+}
+
+#point,
+#point > div {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 38px solid var(--shadow);
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  bottom: 0;
+  left: 99px;
+  transform: scaleX(0.87);
+  transform-origin: left;
+}
+
+#point > div {
+  bottom: -23px;
+  border-color: var(--primary);
+  transform: scaleX(1.04);
+  left: -38px;
+}

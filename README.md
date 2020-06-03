@@ -56,6 +56,7 @@ Please follow the guidlines below:
 - [Safebit](https://outbrain.github.io/tech-companies-logos-in-css/logos/safebit)
 - [Browsi](https://outbrain.github.io/tech-companies-logos-in-css/logos/browsi)
 - [Redash](https://outbrain.github.io/tech-companies-logos-in-css/logos/redash)
+- [BigPanda](https://outbrain.github.io/tech-companies-logos-in-css/logos/bigpanda)
 
 
 # Questions?

@@ -57,6 +57,7 @@ Please follow the guidlines below:
 - [Browsi](https://outbrain.github.io/tech-companies-logos-in-css/logos/browsi)
 - [Redash](https://outbrain.github.io/tech-companies-logos-in-css/logos/redash)
 - [BigPanda](https://outbrain.github.io/tech-companies-logos-in-css/logos/bigpanda)
+- [Google](https://outbrain.github.io/tech-companies-logos-in-css/logos/google)
 
 
 # Questions?

@@ -1,0 +1,116 @@
+body {
+  /* Reset body size. */
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+  /* Place the single child on the center. */
+  /* See this and more great layouts at https://1linelayouts.glitch.me/ */
+  display: grid;
+  place-items: center;
+
+  /* Checkerbox background. */
+  background-image: conic-gradient(
+    lightgrey 90deg,
+    white 90deg 180deg,
+    lightgrey 180deg 270deg,
+    white 270deg
+  );
+  background-position: center;
+  background-size: 5vmin 5vmin;
+  /* Fallback */
+  background-color: lightgrey;
+
+  /* Logo size is 90% of the smaller dimension. */
+  /* To resize, just change it. Should work with px, vh, and maybe others. */
+  --logo-size: 90vmin;
+}
+
+#google-logo {
+  /* Dimensions */
+  --rim: 0.05;
+  --stroke: 0.15;
+  --rim-width: calc(var(--logo-size) * var(--rim));
+  --stroke-width: calc(var(--logo-size) * var(--stroke));
+  --color-wheel-size: calc(var(--logo-size) - 2 * var(--rim-width));
+  --middle-plate-size: calc(
+    var(--color-wheel-size) - 2 * var(--stroke-width)
+  );
+
+  /* Colors */
+  --red: hsl(5, 81%, 56%);
+  --yellow: hsl(45, 97%, 50%);
+  --green: hsl(136, 53%, 43%);
+  --blue: hsl(217, 89%, 61%);
+
+  /* Conic gradient start angle */
+  --red-white: 45deg;
+  /* Conic gradient stops */
+  --white-blue: 45deg;
+  --blue-green: 82.5deg;
+  --green-yellow: 187.5deg;
+  --yellow-red: 262.5deg;
+
+  position: relative;
+  height: var(--logo-size);
+  width: var(--logo-size);
+
+  box-shadow: 0px 4px 10px 2px hsl(0, 0%, 65%);
+}
+
+#color-wheel,
+#color-wheel:after,
+#middle-plate {
+  position: absolute;
+}
+
+#google-logo,
+#color-wheel,
+#middle-plate {
+  border-radius: 50%;
+}
+
+#google-logo,
+#color-wheel,
+#middle-plate {
+  background-color: white;
+}
+
+#color-wheel {
+  --offset: calc((var(--logo-size) - var(--color-wheel-size)) / 2);
+
+  width: var(--color-wheel-size);
+  height: var(--color-wheel-size);
+  left: var(--offset);
+  top: var(--offset);
+  overflow: hidden;
+
+  background-image: conic-gradient(
+    /* Start angle */ from var(--red-white),
+    /* Color stops */ white var(--white-blue),
+    var(--blue) var(--white-blue) var(--blue-green),
+    var(--green) var(--blue-green) var(--green-yellow),
+    var(--yellow) var(--green-yellow) var(--yellow-red),
+    var(--red) var(--yellow-red)
+  );
+}
+
+#color-wheel:after {
+  content: "";
+  width: 100%;
+  height: var(--stroke-width);
+  left: 50%;
+  top: calc(50% - var(--stroke-width) / 2);
+  z-index: 1; /* Not ideal but easy */
+
+  background-color: var(--blue);
+}
+
+#middle-plate {
+  --offset: calc((var(--logo-size) - var(--middle-plate-size)) / 2);
+
+  width: var(--middle-plate-size);
+  height: var(--middle-plate-size);
+  left: var(--offset);
+  top: var(--offset);
+}

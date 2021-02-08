@@ -21,7 +21,7 @@ Please follow the guidlines below:
 - Feel free to use any CSS property you know. As long as it's in CSS, it's valid.
 - **Don't use JavaScript / Images / Base64 / SVG**.
 - Write readable code. That being said, try to use as less code as you can.
-- No need for backward compatability.
+- No need for backward compatibility.
 
 # Participating Companies
 
